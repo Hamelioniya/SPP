@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.getNewsButton = new System.Windows.Forms.Button();
             this.Cur_IdLabel = new System.Windows.Forms.Label();
             this.Cur_IDBox = new System.Windows.Forms.TextBox();
@@ -41,6 +42,8 @@
             this.Cur_OfficialRateBox = new System.Windows.Forms.TextBox();
             this.TitleLabel = new System.Windows.Forms.Label();
             this.Cur_NameBox = new System.Windows.Forms.TextBox();
+            this.timeTextBox = new System.Windows.Forms.TextBox();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // getNewsButton
@@ -174,11 +177,24 @@
             this.Cur_NameBox.Size = new System.Drawing.Size(186, 22);
             this.Cur_NameBox.TabIndex = 17;
             // 
+            // timeTextBox
+            // 
+            this.timeTextBox.Location = new System.Drawing.Point(871, 122);
+            this.timeTextBox.Name = "timeTextBox";
+            this.timeTextBox.Size = new System.Drawing.Size(112, 22);
+            this.timeTextBox.TabIndex = 18;
+            // 
+            // timer
+            // 
+            this.timer.Interval = 10000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 161);
+            this.Controls.Add(this.timeTextBox);
             this.Controls.Add(this.Cur_NameBox);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.Cur_OfficialRateBox);
@@ -215,6 +231,8 @@
         private System.Windows.Forms.TextBox Cur_OfficialRateBox;
         private System.Windows.Forms.Label TitleLabel;
         private System.Windows.Forms.TextBox Cur_NameBox;
+        private System.Windows.Forms.TextBox timeTextBox;
+        private System.Windows.Forms.Timer timer;
     }
 }
 
