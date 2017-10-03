@@ -1,0 +1,37 @@
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\ApplicationInsights.config
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Service.dll.config
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Service.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Service.pdb
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.Web.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.WindowsServer.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.ApplicationInsights.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.Web.xml
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.AI.WindowsServer.xml
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\bin\Microsoft.ApplicationInsights.xml
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\obj\Debug\Service.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\Service\Service\obj\Debug\Service.pdb
+C:\Users\Анастасия\Desktop\Service\Service\bin\ApplicationInsights.config
+C:\Users\Анастасия\Desktop\Service\Service\bin\Service.dll.config
+C:\Users\Анастасия\Desktop\Service\Service\bin\Service.dll
+C:\Users\Анастасия\Desktop\Service\Service\bin\Service.pdb
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.Web.dll
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.Web.xml
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Анастасия\Desktop\Service\Service\obj\Debug\Service.dll
+C:\Users\Анастасия\Desktop\Service\Service\obj\Debug\Service.pdb

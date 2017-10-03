@@ -1,0 +1,8 @@
+C:\Users\Анастасия\Desktop\Service\Client\bin\Debug\Client.exe.config
+C:\Users\Анастасия\Desktop\Service\Client\obj\Debug\Client.ExchangeRates.resources
+C:\Users\Анастасия\Desktop\Service\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\Анастасия\Desktop\Service\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Анастасия\Desktop\Service\Client\bin\Debug\Client.exe
+C:\Users\Анастасия\Desktop\Service\Client\bin\Debug\Client.pdb
+C:\Users\Анастасия\Desktop\Service\Client\obj\Debug\Client.exe
+C:\Users\Анастасия\Desktop\Service\Client\obj\Debug\Client.pdb
