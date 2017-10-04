@@ -3,16 +3,15 @@ using System.ServiceModel;
 
 namespace Service
 {
-
     [ServiceContract]
     public interface IService1
     {
         [OperationContract]
         void GetJsonDoc();
         [OperationContract]
-        void GetTimeOfUpdate();
+        string GetTimeOfUpdate();
         [OperationContract]
-        void SendMessage();
+        void SendMessage(MailInformation mInf);
     }
 
     [DataContract]

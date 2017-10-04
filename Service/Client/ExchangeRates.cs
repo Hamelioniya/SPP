@@ -24,7 +24,7 @@ namespace Client
             try
             {
                 client.GetJsonDoc();
-                timeTextBox.Text = TimeDeserialization();
+                timeTextBox.Text = client.GetTimeOfUpdate();
             }
             catch (Exception ex) { MessageBox.Show(ex.Message.ToString()); }
         }
@@ -108,7 +108,7 @@ namespace Client
             try
             {
                 client.GetJsonDoc();
-                timeTextBox.Text = TimeDeserialization();
+                timeTextBox.Text = client.GetTimeOfUpdate();
             }
             catch (Exception ex) { MessageBox.Show(ex.Message.ToString()); }
         }
@@ -118,34 +118,13 @@ namespace Client
             client.Close();
         }
 
-        private string TimeDeserialization()
-        {
-            string fileWithTimeLocation = TakePathOfFile("time.json");
-
-            DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(TimeOfLastModification));
-
-            using (FileStream fs = new FileStream(fileWithTimeLocation, FileMode.OpenOrCreate))
-            {
-                TimeOfLastModification tOfLastMod = (TimeOfLastModification)jsonFormatter.ReadObject(fs);
-                return tOfLastMod.time;
-            }
-        }
-
         private void sendMailButton_Click(object sender, EventArgs e)
         {
-            string fileWithEmailInformation = TakePathOfFile("email.json");
-            DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(MailInformation));
-
-            MailInformation mInf = new MailInformation();
+            ServiceReference1.MailInformation mInf = new ServiceReference1.MailInformation();
             mInf.emailOfRecipient = emailTextBox.Text.Trim();
             mInf.smtpServer = serverTextBox.Text.Trim();
 
-            using (FileStream fs = new FileStream(fileWithEmailInformation, FileMode.OpenOrCreate))
-            {
-                jsonFormatter.WriteObject(fs, mInf);
-            }
-
-            try { client.SendMessage(); }
+            try { client.SendMessage(mInf); }
             catch(Exception ex) { MessageBox.Show(ex.Message.ToString()); }
             MessageBox.Show("Сообщение отправлено.");
         }

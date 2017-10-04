@@ -7,3 +7,12 @@ C:\Users\Анастасия\Desktop\Service\Client\bin\Debug\Client.pdb
 C:\Users\Анастасия\Desktop\Service\Client\obj\Debug\Client.exe
 C:\Users\Анастасия\Desktop\Service\Client\obj\Debug\Client.pdb
 C:\Users\Анастасия\Desktop\Service\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Hamelioniya\SPP\Service\Client\bin\Debug\Client.exe.config
+D:\Hamelioniya\SPP\Service\Client\obj\Debug\Client.exe
+D:\Hamelioniya\SPP\Service\Client\obj\Debug\Client.pdb
+D:\Hamelioniya\SPP\Service\Client\obj\Debug\Client.ExchangeRates.resources
+D:\Hamelioniya\SPP\Service\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Hamelioniya\SPP\Service\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+D:\Hamelioniya\SPP\Service\Client\bin\Debug\Client.exe
+D:\Hamelioniya\SPP\Service\Client\bin\Debug\Client.pdb
+D:\Hamelioniya\SPP\Service\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache

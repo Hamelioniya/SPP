@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Service
 {
-    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single, ConcurrencyMode = ConcurrencyMode.Single)]
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
     public class Service1 : IService1
     {
         string time;
@@ -27,63 +27,44 @@ namespace Service
 
         public async void GetJsonDoc()
         {
-            string fileLocation = TakePathOfFile("rates.json");
+            try
+            {
+                string fileLocation = TakePathOfFile("rates.json");
 
-            HttpWebRequest httpRequest = (HttpWebRequest)WebRequest.Create("http://www.nbrb.by/API/ExRates/Rates?Periodicity=0");
-            httpRequest.Method = "GET";
-            httpRequest.ContentType = "text/json";
-            httpRequest.KeepAlive = true;
+                HttpWebRequest httpRequest = (HttpWebRequest)WebRequest.Create("http://www.nbrb.by/API/ExRates/Rates?Periodicity=0");
+                httpRequest.Method = "GET";
+                httpRequest.ContentType = "text/json";
+                httpRequest.KeepAlive = true;
 
-            System.Threading.Tasks.Task<System.Net.WebResponse> responseTask =
-               httpRequest.GetResponseAsync();
+                System.Threading.Tasks.Task<System.Net.WebResponse> responseTask =
+                   httpRequest.GetResponseAsync();
 
-            var resp = await responseTask;
-            string resultOfResponse = "";
-            using (StreamReader sr = new StreamReader(resp.GetResponseStream(), Encoding.GetEncoding(1251)))
-                resultOfResponse = sr.ReadToEnd();
-            resultOfResponse = resultOfResponse.Trim();
+                var resp = await responseTask;
+                string resultOfResponse = "";
+                using (StreamReader sr = new StreamReader(resp.GetResponseStream(), Encoding.GetEncoding(1251)))
+                    resultOfResponse = sr.ReadToEnd();
+                resultOfResponse = resultOfResponse.Trim();
+                File.WriteAllText(fileLocation, resultOfResponse);
 
-            try { File.WriteAllText(fileLocation, resultOfResponse); }
-            catch(Exception ex) { }
+                HttpWebResponse r = (HttpWebResponse)resp;
 
-            HttpWebResponse r = (HttpWebResponse)resp;
-
-            time = r.LastModified.ToString();
-            GetTimeOfUpdate();
+                time = r.LastModified.ToString();
+            }
+            catch (Exception ex) { Console.Out.WriteLine(ex.Message.ToString()); }
         }
 
-        public void GetTimeOfUpdate()
+        public string GetTimeOfUpdate()
         {
-            string fileWithTimeLocation = TakePathOfFile("time.json");
-
-            TimeOfLastModification timeOfLastUpdate = new TimeOfLastModification();
-            timeOfLastUpdate.time = time;
-
-            DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(TimeOfLastModification));
-
-            using (FileStream fs = new FileStream(fileWithTimeLocation, FileMode.Create))
-            {
-                jsonFormatter.WriteObject(fs, timeOfLastUpdate);
-                fs.Close();
-            }
+            return time;
         }
 
-        public async void SendMessage()
+        public async void SendMessage(MailInformation mInf)
         {
-            string fileWithEmailInformation = TakePathOfFile("email.json");
-            DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(MailInformation));
-            MailInformation mInf;
-
-            using (FileStream fs = new FileStream(fileWithEmailInformation, FileMode.OpenOrCreate))
-            {
-                mInf = (MailInformation)jsonFormatter.ReadObject(fs);
-            }
-
             var fromAddress = new MailAddress("galtsova98@gmail.com", "Anastasiya");
             var toAddress = new MailAddress(mInf.emailOfRecipient);
             const string fromPassword = "anastasiyashit";
             const string subject = "Информация о курсе валют";
-            const string body = "Файл для получения курса валют находится в приложении.";
+            const string body = "Файл с информайией о курсе валют находится в приложении.";
 
             var client = new SmtpClient
             {
@@ -100,8 +81,8 @@ namespace Service
                 Body = body,
             })
             {
-                if (File.Exists(TakePathOfFile("rates.json")))
-                    message.Attachments.Add(new Attachment(TakePathOfFile("rates.json")));
+                if (File.Exists(TakePathOfFile("rates.txt")))
+                    message.Attachments.Add(new Attachment(TakePathOfFile("rates.txt")));
                 await client.SendMailAsync(message);
             }
         }
