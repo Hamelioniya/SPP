@@ -6,6 +6,6 @@ namespace Client
     public class TimeOfLastModification
     {
         [DataMember]
-        public string time;
+        public string time { get; set; }
     }
 }

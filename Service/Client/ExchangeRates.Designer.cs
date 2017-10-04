@@ -44,6 +44,11 @@
             this.Cur_IdLabel = new System.Windows.Forms.Label();
             this.getNewsButton = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.emailLabel = new System.Windows.Forms.Label();
+            this.emailTextBox = new System.Windows.Forms.TextBox();
+            this.sendMailButton = new System.Windows.Forms.Button();
+            this.serverTextBox = new System.Windows.Forms.TextBox();
+            this.serverLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timeTextBox
@@ -193,11 +198,70 @@
             this.timer.Interval = 10000;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
+            // emailLabel
+            // 
+            this.emailLabel.AutoSize = true;
+            this.emailLabel.Font = new System.Drawing.Font("Book Antiqua", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.emailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.emailLabel.Location = new System.Drawing.Point(12, 145);
+            this.emailLabel.Name = "emailLabel";
+            this.emailLabel.Size = new System.Drawing.Size(43, 17);
+            this.emailLabel.TabIndex = 33;
+            this.emailLabel.Text = "Email:";
+            // 
+            // emailTextBox
+            // 
+            this.emailTextBox.Font = new System.Drawing.Font("Book Antiqua", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.emailTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.emailTextBox.Location = new System.Drawing.Point(100, 142);
+            this.emailTextBox.Name = "emailTextBox";
+            this.emailTextBox.Size = new System.Drawing.Size(100, 22);
+            this.emailTextBox.TabIndex = 34;
+            this.emailTextBox.Text = "galtsova98@gmail.com";
+            // 
+            // sendMailButton
+            // 
+            this.sendMailButton.Font = new System.Drawing.Font("Book Antiqua", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sendMailButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.sendMailButton.Location = new System.Drawing.Point(100, 170);
+            this.sendMailButton.Name = "sendMailButton";
+            this.sendMailButton.Size = new System.Drawing.Size(100, 29);
+            this.sendMailButton.TabIndex = 35;
+            this.sendMailButton.Text = "Отправить";
+            this.sendMailButton.UseVisualStyleBackColor = true;
+            this.sendMailButton.Click += new System.EventHandler(this.sendMailButton_Click);
+            // 
+            // serverTextBox
+            // 
+            this.serverTextBox.Font = new System.Drawing.Font("Book Antiqua", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.serverTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.serverTextBox.Location = new System.Drawing.Point(100, 114);
+            this.serverTextBox.Name = "serverTextBox";
+            this.serverTextBox.Size = new System.Drawing.Size(100, 22);
+            this.serverTextBox.TabIndex = 37;
+            this.serverTextBox.Text = "smtp.gmail.com";
+            // 
+            // serverLabel
+            // 
+            this.serverLabel.AutoSize = true;
+            this.serverLabel.Font = new System.Drawing.Font("Book Antiqua", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.serverLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.serverLabel.Location = new System.Drawing.Point(12, 117);
+            this.serverLabel.Name = "serverLabel";
+            this.serverLabel.Size = new System.Drawing.Size(79, 17);
+            this.serverLabel.TabIndex = 36;
+            this.serverLabel.Text = "Smtp Server:";
+            // 
             // ExchangeRates
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1031, 186);
+            this.ClientSize = new System.Drawing.Size(1031, 211);
+            this.Controls.Add(this.serverTextBox);
+            this.Controls.Add(this.serverLabel);
+            this.Controls.Add(this.sendMailButton);
+            this.Controls.Add(this.emailTextBox);
+            this.Controls.Add(this.emailLabel);
             this.Controls.Add(this.timeTextBox);
             this.Controls.Add(this.Cur_NameBox);
             this.Controls.Add(this.TitleLabel);
@@ -237,6 +301,11 @@
         private System.Windows.Forms.Label Cur_IdLabel;
         private System.Windows.Forms.Button getNewsButton;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Label emailLabel;
+        private System.Windows.Forms.TextBox emailTextBox;
+        private System.Windows.Forms.Button sendMailButton;
+        private System.Windows.Forms.TextBox serverTextBox;
+        private System.Windows.Forms.Label serverLabel;
     }
 }
 

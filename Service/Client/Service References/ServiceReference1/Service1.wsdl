@@ -17,6 +17,12 @@
   <wsdl:message name="IService1_GetTimeOfUpdate_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetTimeOfUpdateResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_SendMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessage" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SendMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendMessageResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="GetJsonDoc">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetJsonDoc" message="tns:IService1_GetJsonDoc_InputMessage" />
@@ -25,6 +31,10 @@
     <wsdl:operation name="GetTimeOfUpdate">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTimeOfUpdate" message="tns:IService1_GetTimeOfUpdate_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTimeOfUpdateResponse" message="tns:IService1_GetTimeOfUpdate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SendMessage" message="tns:IService1_SendMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SendMessageResponse" message="tns:IService1_SendMessage_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
@@ -40,6 +50,15 @@
     </wsdl:operation>
     <wsdl:operation name="GetTimeOfUpdate">
       <soap:operation soapAction="http://tempuri.org/IService1/GetTimeOfUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessage">
+      <soap:operation soapAction="http://tempuri.org/IService1/SendMessage" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

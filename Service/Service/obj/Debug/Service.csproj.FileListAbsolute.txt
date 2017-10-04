@@ -35,3 +35,4 @@ C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.AI.WindowsServ
 C:\Users\Анастасия\Desktop\Service\Service\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Анастасия\Desktop\Service\Service\obj\Debug\Service.dll
 C:\Users\Анастасия\Desktop\Service\Service\obj\Debug\Service.pdb
+C:\Users\Анастасия\Desktop\Service\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache

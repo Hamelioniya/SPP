@@ -21,8 +21,12 @@ namespace Client
             InitializeComponent();
             timer.Enabled = true;
 
-            client.GetJsonDoc();
-            timeTextBox.Text = TimeDeserialization();
+            try
+            {
+                client.GetJsonDoc();
+                timeTextBox.Text = TimeDeserialization();
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message.ToString()); }
         }
 
         private string TakePathOfFile(string filename)
@@ -39,8 +43,12 @@ namespace Client
 
         private void getNewsButton_Click(object sender, EventArgs e)
         {
-            Thread myThread = new Thread(new ThreadStart(JsonFileDeserialization));
-            myThread.Start();
+            try
+            {
+                Thread myThread = new Thread(new ThreadStart(JsonFileDeserialization));
+                myThread.Start();
+            }
+            catch(Exception ex) { MessageBox.Show(ex.Message.ToString()); }
         }
 
         private void JsonFileDeserialization()
@@ -49,7 +57,7 @@ namespace Client
 
             DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(Rate[]));
 
-            using (FileStream fs = new FileStream(fileLocation, FileMode.Open))
+            using (FileStream fs = new FileStream(fileLocation, FileMode.OpenOrCreate))
             {
                 rates = (Rate[])jsonFormatter.ReadObject(fs);
                 foreach (var i in rates)
@@ -97,8 +105,12 @@ namespace Client
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            client.GetJsonDoc();
-            timeTextBox.Text = TimeDeserialization();
+            try
+            {
+                client.GetJsonDoc();
+                timeTextBox.Text = TimeDeserialization();
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message.ToString()); }
         }
 
         private void ExchangeRates_FormClosing(object sender, FormClosingEventArgs e)
@@ -112,11 +124,30 @@ namespace Client
 
             DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(TimeOfLastModification));
 
-            using (FileStream fs = new FileStream(fileWithTimeLocation, FileMode.Open))
+            using (FileStream fs = new FileStream(fileWithTimeLocation, FileMode.OpenOrCreate))
             {
                 TimeOfLastModification tOfLastMod = (TimeOfLastModification)jsonFormatter.ReadObject(fs);
                 return tOfLastMod.time;
             }
+        }
+
+        private void sendMailButton_Click(object sender, EventArgs e)
+        {
+            string fileWithEmailInformation = TakePathOfFile("email.json");
+            DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(MailInformation));
+
+            MailInformation mInf = new MailInformation();
+            mInf.emailOfRecipient = emailTextBox.Text.Trim();
+            mInf.smtpServer = serverTextBox.Text.Trim();
+
+            using (FileStream fs = new FileStream(fileWithEmailInformation, FileMode.OpenOrCreate))
+            {
+                jsonFormatter.WriteObject(fs, mInf);
+            }
+
+            try { client.SendMessage(); }
+            catch(Exception ex) { MessageBox.Show(ex.Message.ToString()); }
+            MessageBox.Show("Сообщение отправлено.");
         }
     }
 }

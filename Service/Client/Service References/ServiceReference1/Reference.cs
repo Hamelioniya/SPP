@@ -26,6 +26,12 @@ namespace Client.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetTimeOfUpdate", ReplyAction="http://tempuri.org/IService1/GetTimeOfUpdateResponse")]
         System.Threading.Tasks.Task GetTimeOfUpdateAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/SendMessage", ReplyAction="http://tempuri.org/IService1/SendMessageResponse")]
+        void SendMessage();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/SendMessage", ReplyAction="http://tempuri.org/IService1/SendMessageResponse")]
+        System.Threading.Tasks.Task SendMessageAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -69,6 +75,14 @@ namespace Client.ServiceReference1 {
         
         public System.Threading.Tasks.Task GetTimeOfUpdateAsync() {
             return base.Channel.GetTimeOfUpdateAsync();
+        }
+        
+        public void SendMessage() {
+            base.Channel.SendMessage();
+        }
+        
+        public System.Threading.Tasks.Task SendMessageAsync() {
+            return base.Channel.SendMessageAsync();
         }
     }
 }
