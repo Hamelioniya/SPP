@@ -62,7 +62,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="TimeOfLastModification.cs" />
     <EmbeddedResource Include="ExchangeRates.resx">
       <DependentUpon>ExchangeRates.cs</DependentUpon>
     </EmbeddedResource>
