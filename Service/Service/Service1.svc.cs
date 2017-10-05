@@ -62,7 +62,7 @@ namespace Service
         {
             var fromAddress = new MailAddress("galtsova98@gmail.com", "Anastasiya");
             var toAddress = new MailAddress(mInf.emailOfRecipient);
-            const string fromPassword = "anastasiyashit";
+            const string fromPassword = "password";//необходимо ввести пароль от почты
             const string subject = "Информация о курсе валют";
             const string body = "Файл с информайией о курсе валют находится в приложении.";
 
