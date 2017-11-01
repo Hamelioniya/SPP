@@ -7,3 +7,6 @@ c:\users\анастасия\documents\visual studio 2015\Projects\lab1\lab1\bin\
 c:\users\анастасия\documents\visual studio 2015\Projects\lab1\lab1\bin\Debug\lab1.pdb
 c:\users\анастасия\documents\visual studio 2015\Projects\lab1\lab1\obj\Debug\lab1.exe
 c:\users\анастасия\documents\visual studio 2015\Projects\lab1\lab1\obj\Debug\lab1.pdb
+D:\Hamelioniya\SPP\lab1\lab1\bin\Debug\lab1.exe.config
+D:\Hamelioniya\SPP\lab1\lab1\obj\Debug\lab1.exe
+D:\Hamelioniya\SPP\lab1\lab1\obj\Debug\lab1.pdb
