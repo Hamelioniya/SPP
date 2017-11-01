@@ -1,0 +1,11 @@
+c:\users\анастасия\documents\visual studio 2015\Projects\Library\Library\bin\Debug\Library.exe.config
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\obj\Debug\Library.BookLibrary.resources
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\obj\Debug\Library.Properties.Resources.resources
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\obj\Debug\Library.csproj.GenerateResource.Cache
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\bin\Debug\Library.exe
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\bin\Debug\Library.pdb
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\obj\Debug\Library.exe
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\obj\Debug\Library.pdb
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\bin\Debug\IOCForLibrary.dll
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\bin\Debug\IOCForLibrary.pdb

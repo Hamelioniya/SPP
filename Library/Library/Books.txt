@@ -1,0 +1,138 @@
+children's fiction
+Alice in Wonderland
+Lewis Carroll
+1865
+0
+paper book;
+philosofical fiction
+The Picture of Dorian Gray
+Oscar Wilde
+1890
+0
+paper book;
+novella
+Le Petit Prince
+Antoine de Saint-Exupery
+1943
+0
+paper book;
+satirical novel
+Fight Club
+Chuck Palahniuk
+1996
+1
+e-book;
+horror
+Lullaby
+Chuck Palahniuk
+2002
+0
+e-book;
+horror
+Haunted
+Chuck Palahniuk
+2005
+0
+paper book;
+novel
+Damned
+Chuck Palahniuk
+2011
+0
+e-book;
+philosophical novel
+Idiot
+Fyodor Dostoyevsky
+1869
+0
+paper book;
+historical novel
+War and Peace
+Leo Tolstoy
+1869
+1
+paper book;
+historical novel
+War and Peace
+Leo Tolstoy
+1869
+2
+paper book;
+historical novel
+War and Peace
+Leo Tolstoy
+1869
+3
+e-book;
+historical novel
+War and Peace
+Leo Tolstoy
+1869
+4
+e-book;
+historical novel
+War and Peace
+Leo Tolstoy
+1869
+5
+e-book;
+fantasy novels
+Harry Potter and the Philosopher's Stone
+J. K. Rowling
+1997
+0
+e-book;
+fantasy novels
+Harry Potter and the Chamber of Secrets
+J. K. Rowling
+1998
+0
+e-book;
+fantasy novels
+Harry Potter and the Prisoner of Azkaban
+J. K. Rowling
+1999
+0
+e-book;
+fantasy novels
+Harry Potter and the Goblet of Fire 
+J. K. Rowling
+2000
+0
+e-book;
+fantasy novels
+Harry Potter and the Order of the Phoenix
+J. K. Rowling
+2003
+0
+e-book;
+fantasy novels
+Harry Potter and the Deathly Hallows
+J. K. Rowling
+2005
+0
+e-book;
+fantasy novels
+Harry Potter and the Deathly Hallows
+J. K. Rowling
+2007
+0
+e-book;
+allegorical novel
+Lord of the Flies
+William Golding
+2007
+0
+paper book;
+allegorical novel
+Lord of the Flies
+William Golding
+2007
+0
+e-book;
+gfgf
+dfgdfgd
+gdfgdf
+1121
+0
+dsfsdf;
