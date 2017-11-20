@@ -9,3 +9,6 @@ C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Librar
 C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\obj\Debug\Library.pdb
 C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\bin\Debug\IOCForLibrary.dll
 C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\Library\Library\bin\Debug\IOCForLibrary.pdb
+D:\Hamelioniya\SPP\Library\Library\bin\Debug\Library.exe.config
+D:\Hamelioniya\SPP\Library\Library\obj\Debug\Library.exe
+D:\Hamelioniya\SPP\Library\Library\obj\Debug\Library.pdb

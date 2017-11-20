@@ -23,19 +23,6 @@ namespace IOCForLibrary
             attachedTypes[typeof(TContract)] = typeof(TImplementation);
         }
 
-        public static void RegisterSingletonMultithread<TContract, TImplementation>()
-        {
-            if ((attachedTypeInstances.ContainsKey(typeof(TContract))) && (attachedTypeInstances[typeof(TContract)] != null))
-            {
-                lock (syncRoot)
-                {
-                    if ((attachedTypeInstances.ContainsKey(typeof(TContract))) && (attachedTypeInstances[typeof(TContract)] != null))
-                        listOfSingltons.Add(typeof(TImplementation));
-                }
-            }
-            Register<TContract, TImplementation>();
-        }
-
         public static void RegisterSingleton<TContract, TImplementation>()
         {
             if ((attachedTypeInstances.ContainsKey(typeof(TContract))) && (attachedTypeInstances[typeof(TContract)] != null))
