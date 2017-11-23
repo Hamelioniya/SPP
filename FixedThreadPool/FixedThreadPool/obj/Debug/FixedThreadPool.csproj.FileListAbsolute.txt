@@ -1,0 +1,8 @@
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\FixedThreadPool\FixedThreadPool\bin\Debug\FixedThreadPool.dll
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\FixedThreadPool\FixedThreadPool\bin\Debug\FixedThreadPool.pdb
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\FixedThreadPool\FixedThreadPool\obj\Debug\FixedThreadPool.csprojResolveAssemblyReference.cache
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\FixedThreadPool\FixedThreadPool\obj\Debug\FixedThreadPool.dll
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\FixedThreadPool\FixedThreadPool\obj\Debug\FixedThreadPool.pdb
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\FixedThreadPool\FixedThreadPool\bin\Debug\NLog.config
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\FixedThreadPool\FixedThreadPool\bin\Debug\NLog.dll
+C:\Users\Анастасия\Documents\Visual Studio 2015\Projects\FixedThreadPool\FixedThreadPool\bin\Debug\NLog.xml

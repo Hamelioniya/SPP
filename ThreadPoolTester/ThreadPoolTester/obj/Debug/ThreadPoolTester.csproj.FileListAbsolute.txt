@@ -1,0 +1,11 @@
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\ThreadPoolTester.exe.config
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\obj\Debug\ThreadPoolTester.csprojResolveAssemblyReference.cache
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\NLog.config
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\ThreadPoolTester.exe
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\ThreadPoolTester.pdb
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\FixedThreadPool.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\NLog.dll
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\FixedThreadPool.pdb
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\NLog.xml
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\obj\Debug\ThreadPoolTester.exe
+c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\obj\Debug\ThreadPoolTester.pdb
