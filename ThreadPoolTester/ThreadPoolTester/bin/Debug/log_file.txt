@@ -1,0 +1,314 @@
+2017-11-23 18:51:55.9104|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 18:51:55.9604|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 18:51:55.9604|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 18:51:55.9604|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 18:51:55.9604|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 18:51:55.9604|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1была назначена работа.
+2017-11-23 18:51:56.4704|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2была назначена работа.
+2017-11-23 18:51:56.9704|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3была назначена работа.
+2017-11-23 18:51:57.4734|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4была назначена работа.
+2017-11-23 18:51:57.4734|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5была назначена работа.
+2017-11-23 18:51:57.9734|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 18:51:57.9834|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 18:51:58.4744|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 18:51:58.4844|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 18:51:58.9744|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 18:53:32.9469|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 18:53:32.9739|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 18:53:32.9739|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 18:53:32.9739|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 18:53:32.9739|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 18:53:32.9739|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1была назначена работа.
+2017-11-23 18:53:33.4980|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2была назначена работа.
+2017-11-23 18:53:33.9980|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3была назначена работа.
+2017-11-23 18:53:34.0080|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4была назначена работа.
+2017-11-23 18:53:34.5030|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5была назначена работа.
+2017-11-23 18:53:35.0080|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 18:53:35.0180|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 18:53:35.5080|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 18:53:35.5180|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:05:53.2758|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 19:05:53.3108|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 19:05:53.3108|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 19:05:53.3108|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 19:05:53.3108|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 19:05:53.3108|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1была назначена работа.
+2017-11-23 19:05:53.8238|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2была назначена работа.
+2017-11-23 19:05:54.3238|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3была назначена работа.
+2017-11-23 19:05:54.8398|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4была назначена работа.
+2017-11-23 19:05:54.8598|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5была назначена работа.
+2017-11-23 19:05:55.3409|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:05:55.3409|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:05:55.3599|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:05:55.3649|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:05:55.8409|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:05:55.8409|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:05:55.8599|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:05:56.3409|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:15.6475|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 19:07:15.6745|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 19:07:15.6745|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 19:07:15.6745|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 19:07:15.6745|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 19:07:15.6745|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 19:07:16.1855|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 19:07:16.6855|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 19:07:16.7225|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 19:07:17.1856|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 19:07:17.1886|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:17.2226|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:17.2226|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:17.6856|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:17.6886|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:17.7226|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:17.7226|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:18.1856|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:18.1856|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:18.2226|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:07:18.2226|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:41:58.6384|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 19:41:58.7884|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 19:41:58.7884|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 19:41:58.7884|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 19:41:58.7884|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 19:41:58.8384|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 19:41:59.3684|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 19:41:59.8684|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 19:41:59.8684|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 19:42:00.3684|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 19:42:00.3784|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:42:00.3784|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:42:00.8684|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:42:00.8784|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:42:01.3684|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:42:01.3784|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:45:35.2450|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 19:45:35.2790|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 19:45:35.2790|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 19:45:35.2790|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 19:45:35.2790|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 19:45:35.2790|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 19:45:35.7950|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 19:45:36.2950|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 19:45:36.3150|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 19:45:36.7950|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 19:45:36.8150|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:45:37.2950|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:45:37.3150|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:45:37.7950|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:45:37.7950|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:45:37.8150|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:46:44.8333|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 19:46:44.8573|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 19:46:44.8573|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 19:46:44.8573|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 19:46:44.8573|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 19:46:44.8613|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 19:46:45.3683|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 19:46:45.8683|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 19:46:46.3683|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 19:46:46.8783|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 19:46:47.3783|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:46:47.3883|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:46:47.8783|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 19:46:47.9083|ERROR|FixedThreadPool.MyThreadPool|test
+2017-11-23 20:35:02.9113|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:35:03.1413|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:35:03.1413|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:35:03.1413|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:35:03.1413|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:35:03.1913|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:35:03.7813|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:35:04.2913|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:35:04.7988|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:35:05.3038|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:35:05.8113|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:35:06.3188|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:35:33.4360|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:35:33.4710|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:35:33.4710|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:35:33.4710|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:35:33.4710|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:35:33.4710|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:35:34.0021|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:35:34.5031|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:35:34.5031|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:35:35.0031|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:35:35.0031|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:35:35.5031|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:35:35.5031|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:35:35.5031|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:35:36.0032|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:35:36.0032|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:02.2212|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:36:02.2552|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:36:02.2552|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:36:02.2552|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:36:02.2552|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:36:02.2552|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:36:02.7692|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:36:05.7704|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:36:08.7705|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:36:08.7765|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:36:11.7707|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:11.7707|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:11.7707|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:11.7967|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:11.8017|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:14.7709|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:14.7709|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:14.7969|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:17.7711|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:36:48.9648|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:36:48.9988|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:36:48.9988|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:36:48.9988|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:36:48.9988|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:36:49.0038|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:36:52.0360|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:36:55.0512|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:36:58.0754|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:36:59.0404|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:37:11.9982|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:37:12.0312|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:37:12.0312|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:37:12.0312|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:37:12.0312|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:37:12.0452|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:37:15.0463|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:37:18.0595|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:37:21.0657|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:37:22.0527|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:37:25.0539|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:25.0649|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:28.0671|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:28.0671|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:31.0712|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:32.0533|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:32.0533|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:35.0635|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:38.0686|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:38.0686|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:41.0718|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:42.0539|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:42.0539|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:37:50.5634|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:37:50.5974|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:37:50.5974|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:37:50.5974|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:37:50.6954|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:37:50.6954|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:37:53.7169|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:37:56.7244|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:37:59.7244|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:38:00.7894|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:38:03.7244|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:06.7244|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:09.7244|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:10.7944|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:13.7244|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:16.7269|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:19.7319|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:20.7969|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:23.7355|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:26.7355|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:29.7355|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:30.7980|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:38:33.7405|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:05.6069|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:39:05.6399|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:39:05.6399|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:39:05.6399|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:39:05.6399|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:39:05.6449|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:39:08.6460|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:39:11.6742|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:39:14.6764|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:39:15.6514|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:39:18.6556|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:22.7378|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:25.7390|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:28.7402|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:29.7372|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:29.7372|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:29.7372|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:29.7502|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:32.7874|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:35.7886|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:38.7918|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:39.7438|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:39.7438|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:39.7878|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:42.7900|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:45.7912|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:48.7923|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:49.7444|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:49.7494|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:49.7904|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:52.7926|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:55.7947|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:58.7959|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:39:59.7450|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:40:58.3253|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:40:58.3593|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:40:58.3593|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:40:58.3593|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:40:58.3593|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:40:58.3593|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:40:58.8843|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:40:59.3893|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:40:59.8943|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:40:59.9043|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:40:59.9443|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:00.4018|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:00.4218|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:00.4518|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:00.9018|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:00.9018|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:00.9218|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:00.9518|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:01.4018|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:41:40.9215|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:41:40.9555|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:41:40.9555|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:41:40.9555|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:41:40.9555|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:41:40.9655|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:41:41.5105|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:41:42.0130|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:41:42.5130|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:42:49.2002|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 20:42:49.2402|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 20:42:49.2412|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 20:42:49.2412|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 20:42:49.2412|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 20:42:49.2412|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 20:42:49.7663|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 20:42:50.2743|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 20:42:50.7743|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 20:42:50.7743|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 20:42:51.2768|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:42:51.2768|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:42:51.7943|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:42:52.2868|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.
+2017-11-23 20:42:52.4068|ERROR|FixedThreadPool.MyThreadPool|test
+2017-11-23 21:07:04.0314|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 21:07:04.0634|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 21:07:04.0634|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 21:07:04.0634|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 21:07:04.0634|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 21:07:04.0634|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 21:07:04.5804|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 21:07:05.0854|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 21:07:05.5904|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 21:08:38.5211|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 1
+2017-11-23 21:08:38.5521|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 2
+2017-11-23 21:08:38.5521|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 3
+2017-11-23 21:08:38.5521|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 4
+2017-11-23 21:08:38.5521|INFO|FixedThreadPool.MyThreadPool|Был создан поток с номером 5
+2017-11-23 21:08:38.5521|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 1 была назначена работа.
+2017-11-23 21:08:39.0792|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 2 была назначена работа.
+2017-11-23 21:08:39.5792|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 3 была назначена работа.
+2017-11-23 21:08:39.5792|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 4 была назначена работа.
+2017-11-23 21:08:40.0792|INFO|FixedThreadPool.MyThreadPool|Потоку с номером 5 была назначена работа.
+2017-11-23 21:08:40.0792|INFO|FixedThreadPool.MyThreadPool|Нет свободного потока для выполнения задачи.

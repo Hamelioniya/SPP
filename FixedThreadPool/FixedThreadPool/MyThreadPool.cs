@@ -11,7 +11,7 @@ namespace FixedThreadPool
 {
     public class MyThreadPool : IDisposable
     {
-        private static Logger logger;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
         private int numberThreads;
         private Task[] threads;
@@ -28,8 +28,6 @@ namespace FixedThreadPool
 
         public MyThreadPool(int numberThreads)
         {
-            logger = LogManager.GetCurrentClassLogger();
-
             if (numberThreads <= 0)
             {
                 logger.Error("Количество потоков должно быть больше нуля.");
@@ -92,6 +90,10 @@ namespace FixedThreadPool
                     {
                         task.Execute();
                     }
+                    catch(Exception ex)
+                    {
+                        logger.Error(ex.Message);
+                    }
                     finally
                     {
                         RemoveTask(task);
@@ -103,7 +105,7 @@ namespace FixedThreadPool
         }
 
         //Менеджер потоков(тасков)
-        public void ThreadManager()
+        public void Run()
         {
             while (true)
             {
@@ -116,7 +118,7 @@ namespace FixedThreadPool
                     {
                         if ((thread.Status == TaskStatus.Created) | (thread.Status == TaskStatus.WaitingForActivation))
                         {
-                            logger.Info("Потоку с номером " + thread.Id + "была назначена работа.");
+                            logger.Info("Потоку с номером " + thread.Id + " была назначена работа.");
 
                             thread.Start();
                             break;

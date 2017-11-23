@@ -21,10 +21,7 @@ namespace FixedThreadPool
         // Выполнение задачи
         public void Execute()
         {
-            lock (this)
-            {
-                isRunned = true;
-            }
+            isRunned = true;
             work();
         }
 

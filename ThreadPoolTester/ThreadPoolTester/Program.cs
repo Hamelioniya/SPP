@@ -21,15 +21,13 @@ namespace ThreadPoolTester
             {
                 tasks.Add(new ThreadTask(NormalPriority));
             }
-            tasks.Add(new ThreadTask(HighPriority, Priority.High));
-            tasks.Add(new ThreadTask(LowPriority, Priority.Low));
 
             //Добавление задач в очередь
             foreach (ThreadTask task in tasks)
                 threadPool.Execute(task);
 
             //Запуск менеджера пула потоков(распредление задач между потоками)
-            threadPool.ThreadManager();
+            threadPool.Run();
             threadPool.Stop();
 
             Console.WriteLine("Работа пула потоков завершена");

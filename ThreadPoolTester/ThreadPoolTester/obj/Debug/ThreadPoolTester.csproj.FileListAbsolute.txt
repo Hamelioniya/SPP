@@ -9,3 +9,6 @@ c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTest
 c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\bin\Debug\NLog.xml
 c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\obj\Debug\ThreadPoolTester.exe
 c:\users\анастасия\documents\visual studio 2015\Projects\ThreadPoolTester\ThreadPoolTester\obj\Debug\ThreadPoolTester.pdb
+D:\Hamelioniya\SPP\ThreadPoolTester\ThreadPoolTester\bin\Debug\ThreadPoolTester.exe.config
+D:\Hamelioniya\SPP\ThreadPoolTester\ThreadPoolTester\obj\Debug\ThreadPoolTester.exe
+D:\Hamelioniya\SPP\ThreadPoolTester\ThreadPoolTester\obj\Debug\ThreadPoolTester.pdb

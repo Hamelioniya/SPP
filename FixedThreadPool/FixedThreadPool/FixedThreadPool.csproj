@@ -50,7 +50,7 @@
     <Compile Include="ThreadTask.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="NLog.config">
+    <Content Include="nlog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="NLog.xsd">
