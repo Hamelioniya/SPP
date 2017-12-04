@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <name>Молоко</name>
+    <manufacturer>Беларусь</manufacturer>
+    <price>1.29</price>
+    <id>123</id>
+  </Product>
+  <Product>
+    <name>Чай</name>
+    <manufacturer>Россия</manufacturer>
+    <price>4.57</price>
+    <id>333</id>
+  </Product>
+  <Product>
+    <name>Кофе</name>
+    <manufacturer>Россия</manufacturer>
+    <price>10.33</price>
+    <id>334</id>
+  </Product>
+</ArrayOfProduct>

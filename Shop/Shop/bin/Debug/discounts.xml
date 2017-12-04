@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ArrayOfDiscount xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Discount>
+    <product>
+      <name>Кофе</name>
+      <manufacturer>Россия</manufacturer>
+      <price>10.33</price>
+      <id>334</id>
+    </product>
+    <name>Кофе</name>
+    <discountPrice>20</discountPrice>
+    <countOfProductsForDiscount>2</countOfProductsForDiscount>
+  </Discount>
+  <Discount>
+    <product>
+      <name>Молоко</name>
+      <manufacturer>Беларусь</manufacturer>
+      <price>1.29</price>
+      <id>123</id>
+    </product>
+    <name>Молоко</name>
+    <discountPrice>3</discountPrice>
+    <countOfProductsForDiscount>3</countOfProductsForDiscount>
+  </Discount>
+  <Discount>
+    <product>
+      <name>Чай</name>
+      <manufacturer>Россия</manufacturer>
+      <price>4.57</price>
+      <id>333</id>
+    </product>
+    <name>Чай</name>
+    <discountPrice>8</discountPrice>
+    <countOfProductsForDiscount>2</countOfProductsForDiscount>
+  </Discount>
+</ArrayOfDiscount>

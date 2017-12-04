@@ -1,0 +1,8 @@
+c:\users\анастасия\documents\visual studio 2015\Projects\Shop\Shop\bin\Debug\Shop.exe.config
+c:\users\анастасия\documents\visual studio 2015\Projects\Shop\Shop\bin\Debug\Shop.exe
+c:\users\анастасия\documents\visual studio 2015\Projects\Shop\Shop\bin\Debug\Shop.pdb
+c:\users\анастасия\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.ShopForm.resources
+c:\users\анастасия\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.Properties.Resources.resources
+c:\users\анастасия\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.csproj.GenerateResource.Cache
+c:\users\анастасия\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.exe
+c:\users\анастасия\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.pdb
